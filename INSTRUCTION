@@ -1,0 +1,77 @@
+# 📝 Django Blog Application
+
+A blog application built using **Python and Django**.  
+This project allows users to create, manage, and view blog posts.
+
+---
+
+## 🚀 Technologies Used
+
+- Python
+- Django
+- SQLite
+- HTML
+- CSS
+- JavaScript
+- Git & GitHub
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/BlogApplication.git
+
+
+
+2. Go to the Project Folder
+cd BlogApplication
+
+3. Create a Virtual Environment
+python -m venv venv
+
+4. Activate Virtual Environment
+Windows
+venv\Scripts\activate
+
+5. Install Required Packages
+python -m pip install -r requirements.txt
+.
+🗄️ Database Setup
+6. Create Database Migrations
+python manage.py makemigrations
+
+7. Apply Migrations
+python manage.py migrate
+
+👤 Create Admin User
+8. Create Superuser
+python manage.py createsuperuser
+
+Enter:
+Username:
+Email:
+Password:
+
+▶️ Run the Project
+9. Start Django Development Server
+python manage.py runserver
+
+Check Django version
+python -m django --version
+
+Check project for errors
+python manage.py check
+
+Create a new Django app
+python manage.py startapp app_name
+
+python manage.py makemigrations
+
+Apply migrations
+python manage.py migrate
+
+Open Django shell
+python manage.py shell
